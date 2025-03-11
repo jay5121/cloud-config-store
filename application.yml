@@ -13,4 +13,4 @@ microservice:
       paynow: /payment/paynow
   order-service:
     endpoints:
-      paynow: /order/place
+      place: /order/place
