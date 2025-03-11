@@ -10,9 +10,9 @@ eureka:
 microservice:
   payment-service:
     endpoints:
-      url:
+      path:
         paynow: /payment/paynow
   order-service:
     endpoints:
-      url:
+      path:
         place: /order/place
